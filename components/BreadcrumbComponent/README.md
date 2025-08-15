@@ -1,4 +1,4 @@
-# Issue Logger Component
+# Breadcrumb Component
 
 ## 📥 How to Use
 1. Download `BreadcrumbComponent.msapp`
