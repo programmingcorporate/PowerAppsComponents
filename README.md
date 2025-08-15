@@ -19,5 +19,5 @@ Reusable components for PowerApps including navigation controls, UI elements, an
 This project is licensed under the MIT License.
 
 ## 🙌 Author
-Created by Raj (programmingcorporate)  
+Created by Raj Parihar (programmingcorporate)  
 Blending traditional wisdom with modern tech ✨
