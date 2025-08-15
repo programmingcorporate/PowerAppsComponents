@@ -18,7 +18,7 @@ ClearCollect(
     )
 );
 
-Update below code on Other Screens – Breadcrumb Logic
+Update below code on Other Screens OnVisible
 // Add current screen to breadcrumb trail if not already present
 If(
     IsBlank(
