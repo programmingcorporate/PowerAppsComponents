@@ -6,8 +6,7 @@
 3. Go to Tree View → Components → Import
 4. Select the file and import
 5. Drag the component into your screen and configure
-6. Update below code on Home Screen – OnVisible
-// Initialize breadcrumb trail with the Home screen
+6. Update below code on Home Screen – OnVisible(): 
 ClearCollect(
     colScreenDetails,
     Table(
@@ -18,8 +17,7 @@ ClearCollect(
     )
 );
 
-Update below code on Other Screens OnVisible
-// Add current screen to breadcrumb trail if not already present
+Update below code on Other Screens OnVisible():
 If(
     IsBlank(
         LookUp(
