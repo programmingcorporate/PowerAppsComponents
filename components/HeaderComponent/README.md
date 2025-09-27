@@ -21,7 +21,7 @@ Set the component’s HeaderConfig property using the structure below
 ⚙️ Configuration via HeaderConfig
 Use the following schema to define your header layout. This drives logo, title, and navigation buttons—no additional properties required.
 
-powerfx
+```powerfx
 Table(
     {
         // Header background styling
@@ -33,7 +33,8 @@ Table(
         // Logo image
         Type: "Image",
         Image: 'CompanyLogo',
-        ImageSize: 50
+        ImageSize: 50,
+        ImageType: 1
     },
     {
         // App title text
@@ -79,6 +80,10 @@ Table(
         BackgroundColor: Color.Blue
     }
 )
+
+
+
+
 🧭 Notes
 All layout, styling, and navigation logic is driven by HeaderConfig
 
