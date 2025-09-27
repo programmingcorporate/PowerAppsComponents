@@ -40,7 +40,7 @@ Table(
     {
         // App title text
         Type: "Text",
-        AppName: "Title Of App",
+        AppName: "Title Of App", //Title of your App
         TextWeight: "Bold",
         FontSize: 15,
         FontType: Font.'Segoe UI',
@@ -50,8 +50,8 @@ Table(
     {
         // Navigation button 1
         Type: "Button",
-        Label: "Home",
-        ScreenName: 'Home',
+        Label: "Home",  //Replace with your screen Name
+        ScreenName: 'Home', //Replace with your screen Name
         Icon: "Home",
         IconStyle: "Filled",
         IconPosition: "Start",
@@ -61,8 +61,8 @@ Table(
     {
         // Navigation button 2
         Type: "Button",
-        Label: "Screen2",
-        ScreenName: 'Screen2',
+        Label: "Screen2", //Replace with your screen Name
+        ScreenName: 'Screen2', //Replace with your screen Name
         Icon: "Add",
         IconStyle: "Outline",
         IconPosition: "Only",
@@ -72,8 +72,8 @@ Table(
     {
         // Navigation button 3
         Type: "Button",
-        Label: "Screen3",
-        ScreenName: 'Screen3',
+        Label: "Screen3", //Replace with your screen Name
+        ScreenName: 'Screen3', //Replace with your screen Name
         Icon: Blank(),
         IconStyle: Blank(),
         IconPosition: Blank(),
