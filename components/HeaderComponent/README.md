@@ -25,62 +25,63 @@ Use the following schema to define your header layout. This drives logo, title, 
 ```powerfx
 Table(
     {
-        // Header background styling
-        Type: "HeaderBackground",
-        HeaderBackground: Color.LightGray,
-        HeaderDropShadow: "Heavy"
+        // Header background configuration
+        Type: "HeaderBackground",               // Defines overall header styling
+        HeaderBackground: Color.LightGray,      // Background color for the header container
+        HeaderDropShadow: DropShadow.Bold
     },
     {
-        // Logo image
-        Type: "Image",
-        Image: 'CompanyLogo',
-        ImageSize: 50,
-        ImageType: 1
+        // Image control configuration
+        Type: "Image",                          // Control type: "Image"
+        Image: 'CompanyLogo',                   // Media reference (e.g., uploaded image or media name)
+        ImageSize: 50                         // Image size in pixels
+   
     },
     {
-        // App title text
-        Type: "Text",
-        AppName: "Title Of App", //Title of your App
-        TextWeight: "Bold",
-        FontSize: 15,
-        FontType: Font.'Segoe UI',
-        Align: "Center",
-        FontColor: Color.DarkBlue
+        // Text control configuration
+        Type: "Text",                           // Control type: "Text" (used for labels, headers, captions)
+        AppName: "App Title",                // Display text for the app title
+        TextWeight: "Bold",                     // Text weight: "Bold" or "Normal"
+        FontSize: 20,                           // Font size in points (e.g., 12, 14, 16, 20)
+        FontType: Font.'Segoe UI',              // Font family (e.g., "Segoe UI", "Arial", "Calibri")
+        Align: "Center",                        // Text alignment: "Left", "Center", "Right"
+        FontColor: Color.DarkBlue               // Text color
     },
     {
-        // Navigation button 1
+        // Button 1 configuration
+        Type: "Button",                         // Control type: "Button"
+        Label: "Home",                          // Display text
+        ScreenName: 'Home',                     // Target screen to navigate
+        Icon: "Home",                           // Fluent icon name (e.g., "Home", "Add", "Flight")
+        IconStyle: "Filled",                    // Icon style: "Filled" or "Outline"
+        IconPosition: "Start",                  // Icon placement: "Start", "End", "Only"
+        ButtonType: "Primary",                  // Appearance: "Primary", "Secondary", "Subtle", "Transparent"
+        BackgroundColor: RGBA(0, 0, 1, 1)       // Background color (can use Color.X or RGBA)
+    },
+    {
+        // Button 2 configuration
         Type: "Button",
-        Label: "Home",  //Replace with your screen Name
-        ScreenName: 'Home', //Replace with your screen Name
-        Icon: "Home",
-        IconStyle: "Filled",
-        IconPosition: "Start",
-        ButtonType: "Primary",
-        BackgroundColor: RGBA(0, 0, 1, 1)
-    },
-    {
-        // Navigation button 2
-        Type: "Button",
-        Label: "Screen2", //Replace with your screen Name
-        ScreenName: 'Screen2', //Replace with your screen Name
-        Icon: "Add",
+        Label: "Screen2",                       //Replace with your screen name
+        ScreenName: 'Screen2',                  //Replace with your screen name
+        Icon: "Add",                            // Icon-only button
         IconStyle: "Outline",
-        IconPosition: "Only",
-        ButtonType: "Primary",
-        BackgroundColor: Color.Red
+        IconPosition: "Only",                   // Icon-only display
+        ButtonType: "Primary",                  // Appearance: "Primary", "Secondary", "Subtle", "Transparent"
+        BackgroundColor: Color.Red              // Background color
     },
     {
-        // Navigation button 3
+        // Button 3 configuration
         Type: "Button",
-        Label: "Screen3", //Replace with your screen Name
-        ScreenName: 'Screen3', //Replace with your screen Name
-        Icon: Blank(),
-        IconStyle: Blank(),
-        IconPosition: Blank(),
-        ButtonType: "Primary",
-        BackgroundColor: Color.Blue
+        Label: "Screen3",
+        ScreenName: 'Screen3',
+        Icon: Blank(),                          // No icon
+        IconStyle: Blank(),                     // No style applied
+        IconPosition: Blank(),                  // No icon position
+        ButtonType: "Primary",                  // Appearance: "Primary", "Secondary", "Subtle", "Transparent"
+        BackgroundColor: Color.Blue             // Background color
     }
 )
+
 
 🧭 Notes
 All layout, styling, and navigation logic is driven by HeaderConfig
