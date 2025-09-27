@@ -40,7 +40,7 @@ If(
 Reusable header layout with logo, app title, and navigation buttons—all driven by a single config object.
 
 📥 How to Use
-Download HeaderComponent.msapp
+CanvasHeaderComponents.msapp
 
 Open PowerApps Studio → Your App
 
@@ -67,8 +67,7 @@ Table(
         // Logo image
         Type: "Image",
         Image: 'CompanyLogo',
-        ImageSize: 50,
-        ImageType: 1
+        ImageSize: 50
     },
     {
         // App title text
