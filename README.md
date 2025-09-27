@@ -3,8 +3,9 @@
 Reusable components for PowerApps including navigation controls, UI elements, and logic blocks.
 
 ## 📦 What's Inside
-- Header & Footer controls [Coming soon..]
+- Header Component
 - Breadcrumb Component
+- Footer controls [Coming soon..]
 - Tabbed navigation [Coming soon..]
 - Custom input forms [Coming soon..]
 - Reusable logic snippets [Coming soon..]
