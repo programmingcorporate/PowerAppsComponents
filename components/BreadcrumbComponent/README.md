@@ -39,6 +39,9 @@ If(
 # Header Component
 Reusable header layout with logo, app title, and navigation buttons—all driven by a single config object.
 
+<img width="1125" height="62" alt="image" src="https://github.com/user-attachments/assets/bb916810-25c0-4e6b-abca-76e7a1679252" />
+
+
 📥 How to Use
 CanvasHeaderComponents.msapp
 
