@@ -8,7 +8,7 @@
 3. Go to Tree View → Components → Import
 4. Select the file and import
 5. Drag the component into your screen and configure
-6. Update below code on Home Screen – 
+6. Update below code on Home Screen OnVisible():
 ```OnVisible(): 
 ClearCollect(
     colScreenDetails,
