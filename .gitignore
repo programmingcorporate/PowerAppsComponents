@@ -1,0 +1,175 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+*.iml
+
+# Node & NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.yarn
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Ruby
+Gemfile.lock
+*.gem
+.bundle/
+
+# Package Manager Files
+*.lock
+yarn.lock
+package-lock.json
+
+# Git Files
+.git/
+.gitattributes
+
+# Compiled Files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.a
+
+# Log Files
+*.log
+logs/
+*.log.*
+
+# Temporary Files
+*.tmp
+*.temp
+.temp/
+tmp/
+
+# Backup Files
+*.bak
+*.backup
+*~
+*.orig
+
+# OS-Specific
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# PowerApps Specific Files
+*.msapp~
+.PowerAppsAuthority
+.PowerAppsEditorState
+.PowerAppsBuildState
+
+# Build and Distribution
+dist/
+build/
+*.min.js
+*.min.css
+
+# Test Coverage
+coverage/
+.nyc_output/
+
+# Dependency Directories
+node_modules/
+lib-cov/
+pids/
+
+# Optional npm Cache
+.npm
+
+# Optional REPL History
+.node_repl_history
+
+# Output Files
+*.out
+*.exe
+*.app
+
+# Documentation Build Files
+docs/build/
+site/
+
+# IDE Cache Directories
+.cache
+.eslintcache
+.stylelintcache
+
+# Sensitive Information
+.credentials
+credentials.json
+secrets.json
+.aws/
+.azure/
+
+# Local Development Files
+local.settings.json
+.localhost
+.private
+
+# Editor Backups
+*~
+*.swp
+*.swo
+*~.*
+
+# Archive Files
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+
+# Misc Files
+.DS_Store
+.env.example (use .env.example instead)
+README.local.md
+
+# Never Ignore (Whitelist)
+!.gitkeep
+!.env.example
+!.editorconfig
+!.prettierignore
+!.eslintignore
+
+# PowerApps Exported Solutions
+*_managed.zip
+*_unmanaged.zip
+*.solution
+
+# Notes and Personal Files
+NOTES.md
+TODO.local.md
+.dev-notes/
